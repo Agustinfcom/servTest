@@ -3,10 +3,10 @@ import { Router } from "express";
 const router = Router();
 
 //Raiz
-/*router.get("/", (req, res) => {
+router.get("/", (req, res) => {
   res.json({
-    data,
+    Response: "Que bueno eres tio",
   });
 });
-*/
+
 export default router;
